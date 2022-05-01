@@ -161,10 +161,10 @@ public class Wait {
 	public static void main(String[] args) throws InterruptedException, MalformedURLException, ParseException {
 
 		// Create the object of Wait class
-		Wait calendar = new Wait();
+		Wait wait = new Wait();
 
 		// Start the browser
-		WebDriver driver = calendar.startBrowser();
+		WebDriver wait = calendar.startBrowser();
 
 		// Uncomment for Milestone 1 Activity 1
 		// snippet1(driver);

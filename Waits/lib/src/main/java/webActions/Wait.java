@@ -167,23 +167,29 @@ public class Wait {
 		WebDriver driver = calendar.startBrowser();
 
 		// Uncomment for Milestone 1 Activity 1
-		snippet1(driver);
+		// snippet1(driver);
+
+		// Uncomment for Milestone 2 Activity 2
+		// snippet2(driver);
 
 		// Uncomment for Milestone 3 Activity 2
 		// snippet3_1(driver);
+
+		// Uncomment for Milestone 4 Activity 1
+		// snippet4(driver);
 
 		// Uncomment for Milestone 5 Activity 2
 		// snippet5_task(driver);
 
 		// Uncomment for Milestone 6 Activity 1
 		// snippet5(driver);
-
-		// Uncomment for Milestone 6 Activity 1
 		// snippet6(driver);
 
 		// snippet5_measure(driver);
 		// snippet6_measure(driver);
 
+		// Uncomment for Milestone 6 Activity 2
+		// snippet7(driver);
 	}
 
 }

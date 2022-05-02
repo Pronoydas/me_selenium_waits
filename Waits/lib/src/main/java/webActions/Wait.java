@@ -164,7 +164,7 @@ public class Wait {
 		Wait wait = new Wait();
 
 		// Start the browser
-		WebDriver wait = calendar.startBrowser();
+		wait.startBrowser();
 
 		// Uncomment for Milestone 1 Activity 1
 		// snippet1(driver);

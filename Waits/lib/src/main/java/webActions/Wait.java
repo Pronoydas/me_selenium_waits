@@ -164,7 +164,7 @@ public class Wait {
 		Wait wait = new Wait();
 
 		// Start the browser
-		wait.startBrowser();
+		WebDriver driver = wait.startBrowser();
 
 		// Uncomment for Milestone 1 Activity 1
 		// snippet1(driver);

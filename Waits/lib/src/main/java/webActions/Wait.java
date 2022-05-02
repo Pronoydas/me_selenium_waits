@@ -61,13 +61,7 @@ public class Wait {
 	}
 
 	public static void snippet3_1(WebDriver driver) throws InterruptedException {
-		WebDriverWait webDriverWait = new WebDriverWait(driver, 30);
 
-		driver.get("http://www.leafground.com/pages/appear.html");
-		webDriverWait.wait(10000);
-
-		WebElement buttonToClick = driver.findElement(By.id("btn"));
-		buttonToClick.click();
 	}
 
 	public static void snippet4(WebDriver driver) {

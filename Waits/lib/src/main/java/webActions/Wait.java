@@ -61,7 +61,15 @@ public class Wait {
 	}
 
 	public static void snippet3_1(WebDriver driver) throws InterruptedException {
+		// 1. Open the web page
+		driver.get("https://web-locators-static-site-qa.vercel.app/Wait%20onTime");
 
+		// 2. Find the element with class "upload". This is the “Click to make me
+		// Disappear” button
+		WebElement buttonToClick = driver.findElement(By.className("upload"));
+
+		// 3. Click on the element
+		buttonToClick.click();
 	}
 
 	public static void snippet4(WebDriver driver) {

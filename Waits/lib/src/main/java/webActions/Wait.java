@@ -54,24 +54,6 @@ public class Wait {
 		buttonDisappear.click();
 	}
 
-	public static void snippet3(WebDriver driver) throws InterruptedException {
-		WebDriverWait webDriverWait = new WebDriverWait(driver, 30);
-		// TODO: Type webDriverWait.wait to find the wait() overloads
-
-	}
-
-	public static void snippet3_1(WebDriver driver) throws InterruptedException {
-		// 1. Open the web page
-		driver.get("https://web-locators-static-site-qa.vercel.app/Wait%20onTime");
-
-		// 2. Find the element with class "upload". This is the “Click to make me
-		// Disappear” button
-		WebElement buttonToClick = driver.findElement(By.className("upload"));
-
-		// 3. Click on the element
-		buttonToClick.click();
-	}
-
 	public static void snippet4(WebDriver driver) {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
